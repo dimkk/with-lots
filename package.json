@@ -1,7 +1,7 @@
 {
   "name": "with-lots",
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "full fledged nextjs template with lots of stuff included",
   "author": {
     "name": "dimkk",
@@ -50,6 +50,7 @@
     ]
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "next": "latest",
     "next-plausible": "^2.0.0",
     "next-seo": "^4.26.0",
