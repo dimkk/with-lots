@@ -13,6 +13,7 @@
 - [ ] 🎠 [HTTP2](https://github.com/vercel/next.js/tree/canary/examples/with-http2)
 - [ ] ❔ [A/B Testing](https://github.com/vercel/next.js/tree/canary/examples/with-tesfy)
 - [ ] ❌ [Offline](https://github.com/vercel/next.js/tree/canary/examples/with-next-offline)
+- [x] 📭 [Docker](https://nextjs.org/docs/deployment#docker-image)
 
 ## Preview
 
