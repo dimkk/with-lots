@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, fireEvent } from '../testUtils'
 import { Home } from '../../pages/index'
+import { expect } from '@jest/globals'
 
 describe('Home page', () => {
   it('matches snapshot', () => {

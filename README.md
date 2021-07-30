@@ -1,33 +1,31 @@
-# NextJS Typescript Boilerplate
+# With-lots Nextjs starter
 
-Bootstrap a developer-friendly NextJS app configured with:
-
-- [Typescript](https://www.typescriptlang.org/)
-- Linting with [ESLint](https://eslint.org/)
-- Formatting with [Prettier](https://prettier.io/)
-- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
-- Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- [x] 🔠 [TS eslint jest](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest)
+- [x] 🌄 [Cypress](https://github.com/cypress-io/cypress-and-jest-typescript-example)
+- [x] 🔊 [Seo](https://github.com/vercel/next.js/tree/canary/examples/with-next-seo)
+- [ ] 🏃‍♂️ [Strapi](https://github.com/vercel/next.js/tree/canary/examples/cms-strapi)
+- [ ] 👓 [Plausible](https://github.com/vercel/next.js/tree/canary/examples/with-plausible)
+- [ ] 🚩 [Amp](https://github.com/vercel/next.js/tree/canary/examples/amp)
+- [ ] 🔐 [Auth](https://github.com/nextauthjs/next-auth-example)
+- [ ] 🖤 [i18n](https://github.com/vercel/next.js/tree/canary/examples/with-i18n-next-intl)
+- [ ] 🐡 [CSS purge](https://purgecss.com/guides/next.html)
+- [ ] 🌏 [CDN](https://nextjs.org/docs/api-reference/next.config.js/cdn-support-with-asset-prefix)
+- [ ] 🎠 [HTTP2](https://github.com/vercel/next.js/tree/canary/examples/with-http2)
+- [ ] ❔ [A/B Testing](https://github.com/vercel/next.js/tree/canary/examples/with-tesfy)
+- [ ] ❌ [Offline](https://github.com/vercel/next.js/tree/canary/examples/with-next-offline)
 
 ## Preview
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/dimkk/with-lots)
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=dimkk-with-lots):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest&project-name=with-typescript-eslint-jest&repository-name=with-typescript-eslint-jest)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/dimkk/with-lots)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-typescript-eslint-jest with-typescript-eslint-jest-app
-# or
-yarn create next-app --example with-typescript-eslint-jest with-typescript-eslint-jest-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Use a template feature of Github

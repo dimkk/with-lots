@@ -1,5 +1,28 @@
 {
-  "private": true,
+  "name": "with-lots",
+  "version": "1.0.0",
+  "description": "full fledged nextjs template with lots of stuff included",
+  "author": {
+    "name": "dimkk",
+    "email": "dimkk@Outlook.com"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "seo",
+    "auth",
+    "jest",
+    "cypress",
+    "strapi",
+    "plausible",
+    "amp",
+    "i18n",
+    "csspurge",
+    "cdn",
+    "http2",
+    "tesfy",
+    "offline"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,8 +31,12 @@
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "e2e:open": "cypress open",
+    "e2e:closed": "cypress run",
+    "e2e": "start-server-and-test dev 3000 e2e:closed"
   },
+  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -24,6 +51,7 @@
   },
   "dependencies": {
     "next": "latest",
+    "next-seo": "^4.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -35,15 +63,19 @@
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
     "babel-jest": "^27.0.2",
-    "eslint": "^7.19.0",
+    "cypress": "^8.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-react": "^7.19.0",
     "husky": "^4.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.4",
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.0.10",
-    "prettier": "^2.0.2",
+    "start-server-and-test": "^1.13.1",
     "typescript": "^4.1.3"
   }
 }
