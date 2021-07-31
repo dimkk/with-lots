@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { NextSeo } from 'next-seo'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 export const Home = (): JSX.Element => (
   <div className="container">
@@ -46,7 +46,7 @@ export const Home = (): JSX.Element => (
 
       <button
         onClick={() => {
-          window.alert('With typescript and Jest')
+          window.alert('With typescript and Jest');
         }}
       >
         Test Button
@@ -243,6 +243,6 @@ export const Home = (): JSX.Element => (
       (Structured Data) is added
     </p>
   </div>
-)
+);
 
-export default Home
+export default Home;

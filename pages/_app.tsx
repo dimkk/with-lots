@@ -1,6 +1,6 @@
-import { DefaultSeo } from 'next-seo'
-import SEO from '../next-seo.config'
-import PlausibleProvider from 'next-plausible'
+import { DefaultSeo } from 'next-seo';
+import SEO from '../next-seo.config';
+import PlausibleProvider from 'next-plausible';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default function MyApp({ Component, pageProps }) {
@@ -10,5 +10,5 @@ export default function MyApp({ Component, pageProps }) {
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
     </PlausibleProvider>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { ArticleJsonLd } from 'next-seo'
+import { ArticleJsonLd } from 'next-seo';
 
 // See all available JSON-LD here:
 // https://github.com/garmeeh/next-seo#json-ld
@@ -27,5 +27,5 @@ export default function JsonLd() {
         a script tag of type &quot;application/ld+json&quot;.
       </p>
     </div>
-  )
+  );
 }

@@ -8,18 +8,18 @@ const favoriteStack = [
   'GraphQL',
   'Amazon Web Services',
   'Firebase',
-]
+];
 
 context('Stack', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/stack')
-  })
+    cy.visit('http://localhost:3000/stack');
+  });
 
   it('should render the stack page and display the favorite stack', () => {
     cy.get('ul>li').each((item, index) => {
-      cy.wrap(item).should('contain.text', favoriteStack[index])
-    })
-  })
-})
+      cy.wrap(item).should('contain.text', favoriteStack[index]);
+    });
+  });
+});
 
-export {}
+export {};

@@ -16,6 +16,7 @@
 - [x] 📭 [Docker](https://nextjs.org/docs/deployment#docker-image)
 - [x] 🤐 [Bundle-analyzer](https://github.com/vercel/next.js/tree/canary/examples/analyze-bundles)
 - [x] 🌴 [Prettier using run on save VSCode ext](https://github.com/emeraldwalk/vscode-runonsave)
+- [x] 🎶 [Prettier spotify config](https://www.npmjs.com/package/@spotify/prettier-config)
 
 ## Preview
 
