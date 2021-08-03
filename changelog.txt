@@ -1,0 +1,15 @@
+## 1.5.0 (2021-08-03)
+
+* - added bundle analyzer ([b81a8d8](https://github.com/dimkk/with-lots/commit/b81a8d8))
+* - added dockerignore ([22f5b1d](https://github.com/dimkk/with-lots/commit/22f5b1d))
+* - added vscode things to run prettier from cmd ([c1e627b](https://github.com/dimkk/with-lots/commit/c1e627b))
+* - docker added ([170a66f](https://github.com/dimkk/with-lots/commit/170a66f))
+* - fixed purgecss ([999bdac](https://github.com/dimkk/with-lots/commit/999bdac))
+* - init ([f8d64e6](https://github.com/dimkk/with-lots/commit/f8d64e6))
+* - plausible ([ab1cd88](https://github.com/dimkk/with-lots/commit/ab1cd88))
+* - prettier spotify config added ([0bdc301](https://github.com/dimkk/with-lots/commit/0bdc301))
+* added next remote watch for static props ([3198f7f](https://github.com/dimkk/with-lots/commit/3198f7f))
+* Initial commit from Create Next App ([f0d1941](https://github.com/dimkk/with-lots/commit/f0d1941))
+
+
+
