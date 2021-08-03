@@ -17,6 +17,8 @@
 - [x] 🤐 [Bundle-analyzer](https://github.com/vercel/next.js/tree/canary/examples/analyze-bundles)
 - [x] 🌴 [Prettier using run on save VSCode ext](https://github.com/emeraldwalk/vscode-runonsave)
 - [x] 🎶 [Prettier spotify config](https://www.npmjs.com/package/@spotify/prettier-config)
+- [x] ⌚ [Next remote watch for static props](https://github.com/hashicorp/next-remote-watch)
+- [x] 💱 [Changelog generation](https://github.com/conventional-changelog/conventional-changelog)
 
 ## Preview
 
